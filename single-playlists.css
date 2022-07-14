@@ -1,0 +1,136 @@
+#main {
+  width: 60%;
+}
+.song-info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 45vh;
+  background-color: #141b41;
+  border-radius: 10px;
+}
+
+.image-div {
+  width: 35%;
+  height: inherit;
+}
+
+.image-div img {
+  width: 100%;
+  height: inherit;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  justify-content: center;
+  margin-top: 25px;
+  justify-content: space-around;
+}
+
+.h4 {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.song-heading p {
+  color: #979797;
+  font-size: 0.7rem;
+  margin: 5px 0 0 72px;
+  /* text-align: center; */
+  position: relative;
+  right: -85px;
+}
+
+.p1 {
+  color: white;
+  font-size: 0.6rem;
+}
+
+.p2 {
+  font-size: 0.6rem;
+  color: #adadad;
+  text-align: justify;
+}
+.band-info {
+  margin: 0 55px;
+}
+
+.play-follow {
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.playall {
+  width: 55px;
+  height: 20px;
+  background: linear-gradient(98deg, #3f51b5, #9c27b0);
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.playall span {
+  font-size: 0.8rem;
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.follow span {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.extra-des {
+  margin-left: 15px;
+  width: 46%;
+  font-size: 0.6rem;
+  color: white;
+}
+
+/* single songs */
+.border15px {
+  margin: 10px 0 !important;
+  background-color: #1a1e33;
+  border-radius: 15px;
+}
+
+/* aside  */
+.aside-header {
+  margin-bottom: 0;
+  align-items: center;
+}
+
+/* heading in aside section */
+.heading {
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.latest-song img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+.song-image {
+  margin-left: -75px;
+}
+.latest-song {
+  justify-content: space-around;
+}
+
+.queue-music {
+  margin: 15px -10px;
+}
+.viewall {
+  font-size: 0.8rem;
+  color: #bfbfbf;
+  font-weight: 400;
+  margin: 0 35px 0 0;
+}

@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+
+<body>
+  <!-- Header or Nav Bar Section -->
+  <nav class="nav-bar">
+    <div class="brand">
+      <img src="./assests/brand-logo.png">
+      <div class="brand-name">
+        <h2>Aman</h2>
+        <h5>Music Player</h5>
+      </div>
+    </div>
+    <div class="favourites">
+      <p>
+        Favourites
+      </p>
+    </div>
+
+    <div class="search-bar">
+      <span>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </span>
+      <input type="text" placeholder=" search ">
+      <span>
+        <i class="fa-solid fa-microphone"></i>
+      </span>
+    </div>
+    <div class="bell-icon">
+      <span>
+        <i class="fa-solid fa-bell"></i>
+      </span>
+    </div>
+    <div class="profile-image">
+      <img src="./assests/profile-image.jpg" alt="profile-image">
+    </div>
+  </nav>
+
+  <!-- Main Section -->
+  <div class="main-content">
+    <!-- wallpaper Crousel -->
+    <div class="crousel">
+      <div class="song-image-wall">
+        <img src="./assests/crousel/carousel1.jpg" alt="">
+      </div>
+      <div class="song-image-wall">
+        <img src="./assests/crousel/carousel2.jpg" alt="">
+      </div>
+      <div class="song-image-wall">
+        <img src="./assests/crousel/carousel3.jpg" alt="">
+      </div>
+    </div>
+    <main id="main">
+      <!-- Latest Releases -->
+      <div class="latest-releases">
+        <h3 class="h3-heading">Latest Releases</h3>
+        <div class="latest-song">
+          <div class="song-image">
+            <img src="./assests/songs/shit.png" alt="shit">
+          </div>
+          <div class="name-date">
+            <p class="s-name">
+              Onism
+            </p>
+            <p class="m-date">
+              APR 09,2022
+            </p>
+          </div>
+
+          <div class="duration-options">
+            <div class="three-dots">
+              <a href="#more-duration-options">
+                ...
+              </a>
+            </div>
+            <p class="s-time">03:44</p>
+            <div id="more-duration-options">
+              <a href="#"></a>
+              <span><i class="fa-solid fa-play"></i></span>
+              <span>Play All
+                &emsp;&emsp;&emsp;&emsp;
+                <a href="#">x</a>
+              </span>
+              <hr>
+
+              <span><i class="fa-solid fa-plus"></i></span>
+              <span>Add To Queue</span>
+
+              <hr>
+
+              <span><i class="fa-solid fa-heart"></i></span>
+              <span>Add To Favourites</span>
+
+              <hr>
+
+              <span><i class="fa-solid fa-circle-info"></i></span>
+              <span>Get Info</span>
+
+            </div>
+
+          </div>
+          <!-- ========================================================== -->
+
+          <!-- ========================================================== -->
+          <div class="song-image">
+            <img src="./assests/songs/shit.png" alt="shit">
+          </div>
+          <div class="name-date">
+            <p class="s-name">
+              Onism
+            </p>
+            <p class="m-date">
+              APR 09,2022
+            </p>
+          </div>
+
+          <div class="duration-options">
+            <div class="three-dots">
+              <a href="#more-duration-options">
+                ...
+              </a>
+            </div>
+            <p class="s-time">03:44</p>
+          </div>
+
+        </div>
+
+        <div class="latest-song">
+          <div class="song-image">
+            <img src="./assests/songs/shit.png" alt="shit">
+          </div>
+          <div class="name-date">
+            <p class="s-name">
+              Onism
+            </p>
+            <p class="m-date">
+              APR 09,2022
+            </p>
+          </div>
+
+          <div class="duration-options">
+            <div class="three-dots">
+              <a href="#more-duration-options">
+                ...
+              </a>
+            </div>
+            <p class="s-time">03:44</p>
+          </div>
+          <div class="song-image">
+            <img src="./assests/songs/shit.png" alt="shit">
+          </div>
+          <div class="name-date">
+            <p class="s-name">
+              Onism
+            </p>
+            <p class="m-date">
+              APR 09,2022
+            </p>
+          </div>
+
+          <div class="duration-options">
+            <div class="three-dots">
+              <a href="#more-duration-options">
+                ...
+              </a>
+            </div>
+            <p class="s-time">03:44</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Popular Artists -->
+      <h3 class="h3-heading">Popular Artist</h3>
+      <div class="popular-artist">
+        <div class="profile-name">
+          <a href="./single-playlist.html">
+            <img src="./assests/popular artists/adele.jpg" alt="adele">
+          </a>
+          <p class="name">
+            Adele
+          </p>
+        </div>
+        <div class="profile-name">
+          <a href="./single-playlist.html">
+            <img src="./assests/popular artists/billie eilish.jpg" alt="billie">
+          </a>
+          <p class="name">
+            Billie Eilish
+          </p>
+        </div>
+        <div class="profile-name">
+          <a href="./single-playlist.html">
+            <img src="./assests/popular artists/bruno mars.jpg" alt="bruno">
+          </a>
+          <p class="name">
+            Bruno Mars
+          </p>
+        </div>
+        <div class="profile-name">
+          <a href="./single-playlist.html">
+            <img src="./assests/popular artists/Camila Cabello.jpg" alt="camila">
+          </a>
+          <p class="name">
+            Camila Cabello
+          </p>
+        </div>
+        <div class="profile-name">
+          <a href="./single-playlist.html">
+            <img src="./assests/popular artists/drake.jpg" alt="drake">
+          </a>
+          <p class="name">
+            Drake
+          </p>
+        </div>
+        <div class="profile-name">
+          <a href="./single-playlist.html">
+            <img src="./assests/popular artists/ed sheeran.jpg" alt="ed-sheeran">
+          </a>
+          <p class="name">
+            Ed Sheeran
+          </p>
+        </div>
+        <div class="profile-name">
+          <img src="./assests/popular artists/eminem.jpg" alt="eminem">
+          <p class="name">
+            Eminem
+          </p>
+        </div>
+        <div class="profile-name">
+          <img src="./assests/popular artists/Katy perry.jpg" alt="katy-perry">
+          <p class="name">
+            Katy Perry
+          </p>
+        </div>
+        <div class="profile-name">
+          <img src="./assests/popular artists/Lil wayne.jpg" alt="lil-wayne">
+          <p class="name">
+            Lil Wayne
+          </p>
+        </div>
+        <div class="profile-name">
+          <img src="./assests/popular artists/nicki minaj.jpg" alt="nicki-minaj">
+          <p class="name">
+            Nicki Minaj
+          </p>
+        </div>
+        <div class="profile-name">
+          <img src="./assests/popular artists/posty.png" alt="posty">
+          <p class="name">
+            Posty
+          </p>
+        </div>
+        <div class="profile-name">
+          <img src="./assests/popular artists/sixnine.jpg" alt="sixnine">
+          <p class="name">
+            SixNine
+          </p>
+        </div>
+      </div>
+
+
+      <!-- Music Stations -->
+      <div class="music-stations">
+        <!-- station logo -->
+        <div class="station-logo">
+          <div class="div1">
+            <img src="./assests/brand-logo.png">
+            <p>Stations</p>
+          </div>
+        </div>
+        <!-- chill section -->
+        <div class="station-song-div">
+          <div class="station-song-img">
+            <a href="#">
+              <img src="./assests/music themes/chill.jpg" alt="chill">
+            </a>
+          </div>
+          <p class="station-name">
+            Chill
+          </p>
+        </div>
+        <!-- love section -->
+        <div class="station-song-div">
+          <div class="station-song-img">
+            <a href="#">
+              <img src="./assests/music themes/love.jpg" alt="love">
+            </a>
+          </div>
+          <p class="station-name">
+            Love
+          </p>
+        </div>
+        <!-- pop section -->
+        <div class="station-song-div">
+          <div class="station-song-img">
+            <a href="#">
+              <img src="./assests/music themes/pop.jpg" alt="pop">
+            </a>
+          </div>
+          <p class="station-name">
+            Pop
+          </p>
+        </div>
+        <!-- retro section -->
+        <div class="station-song-div">
+          <div class="station-song-img">
+            <a href="#">
+              <img src="./assests/music themes/retro.jpg" alt="retro">
+            </a>
+          </div>
+          <p class="station-name">
+            Retro
+          </p>
+        </div>
+        <!-- gym section -->
+        <div class="station-song-div">
+          <div class="station-song-img">
+            <a href="#">
+              <img src="./assests/music themes/workout.jpg" alt="workout">
+            </a>
+          </div>
+          <p class="station-name">
+            Gym
+          </p>
+        </div>
+        <!-- rock section -->
+        <div class="station-song-div">
+          <div class="station-song-img">
+            <a href="#">
+              <img src="./assests/music themes/rock.jpg" alt="rock">
+            </a>
+          </div>
+          <p class="station-name">
+            Rock
+          </p>
+        </div>
+      </div>
+
+      <!-- Music by type paryt / electronic / roadtrip -->
+      <div class="music-by-type">
+        <div class="party">
+          <div class="song-img">
+            <img src="./assests/music themes 2/party.jpg" alt="party-music">
+          </div>
+          <p>
+            Party
+          </p>
+        </div>
+        <div class="electronic">
+          <div class="song-img">
+            <img src="./assests/music themes 2/electronic.jpg" alt="electronic-music">
+          </div>
+          <p>
+            Electronic
+          </p>
+        </div>
+        <div class="roadtrip">
+          <div class="song-img">
+            <img src="./assests/music themes 2/road.jpg" alt="roadtrip-music">
+          </div>
+          <p>
+            Road Trip
+          </p>
+        </div>
+      </div>
+
+      <div class="latest-songs">
+        <h3>Latest English</h3>
+        <div class="latest-english">
+          <div class="music-container">
+            <img src="./assests/latest english/I'll Wait.jpg" alt="i-will-wait-song">
+            <p class="m-name">
+              I'll Wait
+            </p>
+            <p class="m-date">APR 09,2022</p>
+          </div>
+
+          <div class="music-container">
+            <img src="./assests/latest english/ily.jpg" alt="ily-song">
+            <p class="m-name">
+              I Love You
+            </p>
+            <p class="m-date">APR 09,2022</p>
+          </div>
+
+          <div class="music-container">
+            <img src="./assests/latest english/let me go.jpg" alt="let-me-go-song">
+            <p class="m-name">
+              Let Me Go
+            </p>
+            <p class="m-date">APR 09,2022</p>
+          </div>
+
+          <div class="music-container">
+            <img src="./assests/latest english/qurantine clean.jpg" alt="qurantine-clean-song">
+            <p class="m-name">
+              Qurantine Clean
+            </p>
+            <p class="m-date">APR 09,2022</p>
+          </div>
+
+          <div class="music-container">
+            <img src="./assests/latest english/roar.jpg" alt="roar-song">
+            <p class="m-name">
+              Roar
+            </p>
+            <p class="m-date">APR 09,2022</p>
+          </div>
+
+          <div class="music-container">
+            <img src="./assests/latest english/toosie slide.jpg" alt="toosie-slide-song">
+            <p class="m-name">
+              Toosie Slide
+            </p>
+            <p class="m-date">APR 09,2022</p>
+          </div>
+        </div>
+        <h3>Latest Hindi</h3>
+        <div class="latest-hindi">
+          <div class="music-container">
+            <img src="./assests/latest hindi/baarish.jpeg" alt="baarish-song">
+            <p class="m-name">
+              Baarish
+            </p>
+            <p class="m-date">APR 09,2022</p>
+          </div>
+
+          <div class="music-container">
+            <img src="./assests/latest hindi/galiyaan.jpg" alt="galiyaan-song">
+            <p class="m-name">
+              Galiyaan
+            </p>
+            <p class="m-date">APR 09,2022</p>
+          </div>
+
+          <div class="music-container">
+            <img src="./assests/latest hindi/giveme some sunshine.jpg" alt="giveme-some-sunshine-song">
+            <p class="m-name">
+              Sunshine - 3Idiots
+            </p>
+            <p class="m-date">APR 09,2022</p>
+          </div>
+
+          <div class="music-container">
+            <img src="./assests/latest hindi/kaun tujhe.jpg" alt="kaun-tujhe-song">
+            <p class="m-name">
+              Kaun Tujhe
+            </p>
+            <p class="m-date">APR 09,2022</p>
+          </div>
+
+          <div class="music-container">
+            <img src="./assests/latest hindi/tera ban jaunga.jpg" alt="tera-ban-jaunga-song">
+            <p class="m-name">
+              Tera Ban Jaunga
+            </p>
+            <p class="m-date">APR 09,2022</p>
+          </div>
+
+          <div class="music-container">
+            <img src="./assests/latest hindi/tere sang yara.jpg" alt="tere-sang-yara-song">
+            <p class="m-name">
+              Tere Sang Yara
+            </p>
+            <p class="m-date">APR 09,2022</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- aside seaction -->
+    <aside id="aside">
+
+      <!-- Queue Heading -->
+      <header class="aside-header">
+        <h3 class="heading">Queue</h3>
+
+        <!-- Queue Dropdown Menu -->
+        <select name="queue" id="drop-down">
+          <option value="Queue" selected>Queue</option>
+          <option value="Playlists">Playlists</option>
+          <option value="Favourite Songs">Favourite Songs</option>
+        </select>
+      </header>
+
+      <!-- Queue Musics -->
+      <div class="queue-music">
+        <p class="m-no">01</p>
+        <img src="./assests/playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>Mirage</h2>
+          <p class="artist">Else</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">02</p>
+        <img src="./assests/playlist/after.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>About Us</h2>
+          <p class="artist">Whyzz</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">03</p>
+        <img src="./assests/playlist/beer.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>New Skin</h2>
+          <p class="artist">Flumes</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">04</p>
+        <img src="./assests/playlist/stoney.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>Thunder</h2>
+          <p class="artist">Skyzz</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">05</p>
+        <img src="./assests/playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>Mirage</h2>
+          <p class="artist">Else</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">06</p>
+        <img src="./assests/playlist/after.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>About Us</h2>
+          <p class="artist">Whyzz</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">07</p>
+        <img src="./assests/playlist/beer.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>New Skin</h2>
+          <p class="artist">Flumes</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">08</p>
+        <img src="./assests/playlist/stoney.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>Thunder</h2>
+          <p class="artist">Skyzz</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">09</p>
+        <img src="./assests/playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>Mirage</h2>
+          <p class="artist">Else</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">10</p>
+        <img src="./assests/playlist/after.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>About Us</h2>
+          <p class="artist">Whyzz</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">11</p>
+        <img src="./assests/playlist/beer.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>New Skin</h2>
+          <p class="artist">Flumes</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">12</p>
+        <img src="./assests/playlist/stoney.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>Thunder</h2>
+          <p class="artist">Skyzz</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">13</p>
+        <img src="./assests/playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>Mirage</h2>
+          <p class="artist">Else</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">14</p>
+        <img src="./assests/playlist/after.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>About Us</h2>
+          <p class="artist">Whyzz</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">15</p>
+        <img src="./assests/playlist/beer.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>New Skin</h2>
+          <p class="artist">Flumes</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">16</p>
+        <img src="./assests/playlist/stoney.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>Thunder</h2>
+          <p class="artist">Skyzz</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">17</p>
+        <img src="./assests/playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>Mirage</h2>
+          <p class="artist">Else</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">18</p>
+        <img src="./assests/playlist/after.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>About Us</h2>
+          <p class="artist">Whyzz</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">19</p>
+        <img src="./assests/playlist/beer.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>New Skin</h2>
+          <p class="artist">Flumes</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">20</p>
+        <img src="./assests/playlist/stoney.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>Thunder</h2>
+          <p class="artist">Skyzz</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">21</p>
+        <img src="./assests/playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>Mirage</h2>
+          <p class="artist">Else</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">22</p>
+        <img src="./assests/playlist/after.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>About Us</h2>
+          <p class="artist">Whyzz</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">23</p>
+        <img src="./assests/playlist/beer.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>New Skin</h2>
+          <p class="artist">Flumes</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+      <div class="queue-music">
+        <p class="m-no">24</p>
+        <img src="./assests/playlist/stoney.jpg" alt="music-wall">
+        <div class="mname-artist">
+          <h2>Thunder</h2>
+          <p class="artist">Skyzz</p>
+        </div>
+        <div class="fav-heart">
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="img">
+      <img src="./assests/songs/DaBaby.jpg" alt="">
+    </div>
+    <div class="sname-artist">
+      <p class="sname-p-1">
+        Imagine By John
+      </p>
+      <p class="sname-p-2">
+        John Lennon
+      </p>
+    </div>
+    <div class="fav-heart-dislike">
+      <span>
+        <i class="fa-regular fa-heart"></i>
+      </span>
+      <span>
+        <i class="fa-solid fa-ban"></i>
+      </span>
+    </div>
+    <div class="controls-forwarding-menu">
+      <div class="controls">
+        <span>
+          <i class="fa-solid fa-shuffle"></i>
+        </span>
+        <span>
+          <i class="fa-solid fa-backward-step"></i>
+        </span>
+        <span>
+          <i class="fa-solid fa-circle-play"></i>
+        </span>
+        <span>
+          <i class="fa-solid fa-forward-step"></i>
+        </span>
+        <span>
+          <i class="fa-solid fa-repeat"></i>
+        </span>
+      </div>
+      <div class="forwarding-menu">
+        <span>
+          1:10
+        </span>
+        <input type="range" name="range" id="range">
+        <span>
+          4:05
+        </span>
+      </div>
+    </div>
+    <div class="extra-icons">
+      <div>
+        <i class="fas fa-list-ul"></i>
+      </div>
+      <div>
+        <i class="fas fa-laptop"></i>
+      </div>
+      <div>
+        <i class="fas fa-volume-up"></i>
+      </div>
+      <div>
+        <input type="range">
+      </div>
+      <div>
+        <i class="fas fa-expand-alt"></i>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
